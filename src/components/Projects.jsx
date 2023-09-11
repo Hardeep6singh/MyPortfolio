@@ -37,7 +37,7 @@ const Projects = () => {
                         My Reddit Search
                         </span>
                         <div className='pt-8 text-center'>
-                            <a hef="https://my-reddit-search.vercel.app/">
+                            <a href="https://my-reddit-search.vercel.app/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700'>Demo</button>
                             </a>
                             <a href="https://github.com/Hardeep6singh/MyRedditSearch">
