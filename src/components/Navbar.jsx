@@ -9,29 +9,29 @@ const Navbar = () => {
   const [nav,setNav] = useState(false)
   const handleClick = ()=>setNav(!nav)
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 navBarStyle'>
         <div>
           <img src={Logo} alt="Logo Image" style={{width:'80px'}}/>      
         </div>
         
         <ul className='hidden md:flex'>
-            <li><Link to="home" smooth={true} duration={500} >
+            <li><Link to="home" smooth={true} duration={500} className="link">
                  Home
                </Link>
             </li>
-            <li><Link to="about" smooth={true} duration={500} >
+            <li><Link to="about" smooth={true} duration={500} className="link">
                  About
                </Link>
             </li>
-            <li><Link to="skills" smooth={true} duration={500} >
+            <li><Link to="skills" smooth={true} duration={500} className="link">
                  Skills
                </Link>
             </li>
-            <li><Link to="projects" smooth={true} duration={500} >
+            <li><Link to="projects" smooth={true} duration={500} className="link">
                  Projects
                </Link>
             </li>
-            <li><Link to="contact" smooth={true} duration={500} >
+            <li><Link to="contact" smooth={true} duration={500} className="link">
                  Contact
                </Link>
             </li>
@@ -95,7 +95,7 @@ const Navbar = () => {
         </li>
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
            <a className ='flex justify-between items-center w-full text-gray-300'
-            href='/'>
+            href='https://drive.google.com/file/d/1aXQk_DFAtcy8AgjSpe-6bwI8oRAFpBmQ/view?pli=1'>
             Resume <BsFillPersonLinesFill size={30}/>
            </a>
            

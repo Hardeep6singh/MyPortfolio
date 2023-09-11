@@ -4,13 +4,19 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 @layer base{
     body{
-        @apply font-[Raleway];
+        font-family: Helvetica,Arial,sans-serif;
     }
     li{
         @apply px-4;
         @apply cursor-pointer;
     }
 }
+
+@font-face {
+    font-family: bellMedium;
+    src: url(./assets/fonts/bell_slim_medium.otf);
+}
+
 .content-div{
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,4 +29,39 @@
         rgba(112,157,255,0.8),
         hsla(242,74%,61%,0.8)
     )!important;
+}
+
+.navBarStyle {
+    background-color: #00549a;
+}
+
+.link {
+    font-family: 'bellMedium';
+    font-size: 26px;
+    letter-spacing: 0.31px;
+    color: #C2CEDF;
+}
+
+.homeContainerStyle {
+    background-color: #f5f5f5;
+}
+
+.bellFontStyle {
+    font-family: bellMedium;
+    color: #00549a;
+}
+
+.personalInfoStyle {
+    font-family: Helvetica,Arial,sans-serif;
+    color: #00549a;
+}
+
+.skillsParaStyle {
+    border-color: #00549a;
+}
+
+.skillsBoxContainer {
+    border: 1px solid #eee !important;
+    box-shadow: 0 5px 15px rgba(0,0,0, 0.3);
+    border-radius: 10px;
 }
