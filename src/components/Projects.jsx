@@ -1,5 +1,6 @@
 import React from 'react'
 import MyNewsHub from '../assets/MynewsHub.png'
+import tableau from '../assets/tableau.png'
 
 
 const Projects = () => {
@@ -42,6 +43,23 @@ const Projects = () => {
                             </a>
                             <a href="https://github.com/Hardeep6singh/MyRedditSearch">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>  
+                <div style={{backgroundImage:`url(${tableau})`}}
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div skillsBoxContainer' >
+                   {/*Hover Effects*/}
+                    <div className='opacity-0 group-hover:opacity-80'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                        Tableau Project
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://public.tableau.com/app/profile/hardeep.singh2626/viz/Emergency_Dataset_Analysis/Project_Emergency_data?publish=yes">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700'>Demo</button>
+                            </a>
+                            <a href="https://drive.google.com/file/d/1dGu_sfe3bEs8iXqWYdr9IHHw9h_YpeRe/view">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700'>Report</button>
                             </a>
                         </div>
                     </div>
