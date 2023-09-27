@@ -14,13 +14,16 @@ const About = () => {
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                 <div className='sm:text-right text-4xl font-bold'>
-                  <p className='bellFontStyle'> Hi, I am Hardeep, nice to meet you. Please take a look around.</p>
+                  <p className='bellFontStyle'> Hi, I am Hardeep, Thanks for visiting my portfolio. Please take a look around.</p>
                 </div>
                 <div>
-                  <p className='personalInfoStyle'> I am passionate about building excellent software that improves the lives of 
-                    those around me. I specialize in creating software for clients ranging from individuals 
-                    and small-businesses all the way to large  enterprise corporations. What would you do if you 
-                    had a software developer available at your fingertips?
+                  <p className='personalInfoStyle'>First and foremost, I love writing code. Ever since I wrote my first program in C++ and 
+                  manipulated it to get the desired output, I have been obsessed with the idea of using software to solve practical problems. 
+                  Then, I learned web development starting with HTML, CSS, and JavaScript and ventured into libraries and frameworks 
+                  like React and Angular. I was mostly interested in the backend, focusing on how we store data and handle APIs. 
+                  Subsequently, I learned Node.js, Express, and MongoDB for server-side programming.
+                  I always felt that something was missing in my profile, and that's when cloud technologies came to mind.
+                   I started learning multicloud services like AWS, Azure, and GCP. Currently, I am in the process of learning AWS.
                   </p>
                 </div>
             </div>
