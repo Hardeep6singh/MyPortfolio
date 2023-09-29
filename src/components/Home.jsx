@@ -18,7 +18,7 @@ const Home = () => {
 
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0] bellFontStyle'> I am Full Stack developer</h2>
         <p className='text-[#8892b0] py-4 max-w-[700px] personalInfoStyle'> Specifically a MERN Stack developer with a specialization in building 
-        and designing exceptional web applications. Currently, my focus is on mastering
+        and designing exceptional web applications. Additionally, I have proficiency as a data analyst and am currently focusing on mastering
         muticloud technologies like AWS, GCP and Azure.</p>
        
 
